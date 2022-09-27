@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;     
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(/Assets/fundo-abstrato-preto.png);
+    background-size: cover;
+}
+
+header{
+    background-size: cover;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    color: antiquewhite;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 40px;
+}
+
+.cabecalho-imagem{
+    display: flex;
+    width: 100px;
+}
+
+
+.cabecalho-menu-item{
+    display: flex;
+    color: rgb(194, 184, 193);
+    border-color: aquamarine;
+    cursor: grab;
+    gap: 30px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction:inherit;
+    color:aliceblue;
+    padding:  150px 10px;
+    text-align: center;
+}
+
+.meio{
+    color: rgb(167, 117, 117);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    font-size: 25px;
+}
+
+.meio2{
+    color:rgb(210, 210, 230);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 60px;
+}
+
+.meio3{
+    color:rgb(67, 67, 97);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+} 
+
+.rodape-principal{
+    border-top:0.4px solid ;
+    color:aliceblue;
+    padding:  20px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top:0.4px solid ;
+    color:aliceblue;
+    padding:  20px 20px; 
+}
+
+.rodape-face{
+    width: 40px;
+    border-radius: 43px;
+    margin: 6px;
+}
+
+.seta{
+    width: 40px;
+}
+
+.botao{
+    display: flex;
+    border-color: blue;
+    border-radius: 30px ;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.conteudo{
+    display:flex;
+   flex-flow: row-reverse wrap;
+   justify-content: center;
+}
+
+.trabalhos {
+    display:flex;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+    height: 50px;
+    gap: 35px;
+}
+
+.andamento{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

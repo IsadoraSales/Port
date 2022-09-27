@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;     
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(/Assets/fundo-abstrato-preto.png);
+    background-size: cover;
+}
+
+header{
+    background-size: cover;
+}
+
+main{
+    background-image: url(/Assets/back_sobremim.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+footer{
+    color: antiquewhite;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 40px;
+}
+
+.cabecalho-imagem{
+    display: flex;
+    width: 100px;
+}
+
+
+.cabecalho-menu-item{
+    display: flex;
+    color: rgb(194, 184, 193);
+    border-color: aquamarine;
+    cursor: grab;
+    gap: 30px;
+}
+
+.conteudo{
+    border-top:0.4px solid ;
+    color:rgb(37, 83, 124);
+    padding:  150px 10px;
+    text-align:justify;
+    display: flex;
+    flex-direction:column;
+    justify-content: baseline;
+}
+
+.rodape-principal{
+    border-top:0.4px solid ;
+    color:rgb(40, 140, 228);
+    padding:  20px 20px;  
+}
+
+.meio{
+    color: rgb(200, 199, 228);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+}
+
+.meio3{
+    color:rgb(0, 0, 15);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.rodape-principal{
+    border-top:0.4px solid ;
+    color:rgb(17, 67, 110);
+    padding:  20px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+
+.rodape-face{
+    width: 40px;
+    border-radius: 43px;
+    margin: 6px;
+}
+
+.seta{
+    width: 40px;
+}
+
+.botao{
+    display: flex;
+    border-color: blue;
+    border-radius: 30px ;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}

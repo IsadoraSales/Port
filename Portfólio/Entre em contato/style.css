@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;     
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(/Assets/fundo-abstrato-preto.png);
+    background-size: cover;
+}
+
+header{
+    background-size: cover;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    color: antiquewhite;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 40px;
+}
+
+.cabecalho-imagem{
+    display: flex;
+    width: 100px;
+}
+
+
+.cabecalho-menu-item{
+    display: flex;
+    color: rgb(194, 184, 193);
+    border-color: aquamarine;
+    cursor: grab;
+    gap: 30px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: center;
+    justify-content:space-evenly;
+    border-top:0.4px solid ;
+    color:aliceblue;
+    padding:  150px 10px;
+    text-align: center;
+}
+
+.meio{
+    color: rgb(167, 117, 117);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    font-size: 25px;
+}
+
+.meio2{
+    color:rgb(32, 32, 114);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.meio3{
+    color:rgb(67, 67, 97);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.meio{
+    color: rgb(224, 8, 8);
+    border:2px solid red;
+    height:600px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.rodape-principal{
+    border-top:0.4px solid ;
+    color:aliceblue;
+    padding:  20px 20px;
+    
+}
+
+.rodape-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-face{
+    width: 40px;
+    border-radius: 43px;
+    margin: 6px;
+}
+
+.seta{
+    width: 40px;
+}
+
+.botao{
+    display: flex;
+    border-color: blue;
+    border-radius: 30px ;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
